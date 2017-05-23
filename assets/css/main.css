@@ -11,6 +11,7 @@ Colors:
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
 }
+/* Estilos para el nav */
 header{
 	width: 100%;
 	background: #E54E79;
@@ -23,20 +24,21 @@ header{
 	background: #E54E79;
 	margin: auto;
 }
-.logo{
+.boxlogo{
 	width: 30%;
 	height: 70px;
-	background: blue;
+	background: #E54E79;
 	float: left;
 	padding-top: 10px;
 	box-sizing: border-box; /* evita que se agrande el contenedor */
 }
-.logo p a{
-	color:FFF;
-	font-size: 40px;
-	text-decoration: none;
+.logo{
+	width: 65px;
+	background: #E54E79;
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box; /* evita que se agrande el contenedor */
 }
-
 nav{
 	width: 70%;
 	height: 70px;
@@ -53,7 +55,7 @@ nav ul li{
 }
 nav ul li a{
 	color: #FFF;
-	font-size: 13px;
+	font-size: 15px;
 	text-decoration: none;
 	list-style-type: none;
 	text-transform: uppercase; /*transformar letra a mayuscula*/
@@ -66,6 +68,7 @@ nav ul li a{
 }*/
 nav ul li a:hover {
 	background-color: #E56385;
+	text-align: center;
 }
 /**{
 	margin:0;
@@ -75,44 +78,10 @@ nav ul li a:hover {
 body {
 	background-color: #FFF
 }
-/* Estilos para el nav */
+
 /*
 #navbar{
 	display: inline-block;
 	overflow: auto;
 	width: 100%;
 }
-#logo {
-	background-image: "../img/logo-white.png";
-	background-size: cover;
-	width: 70px;
-	height: 50px;
-	float: left;
-}
-/* Estilos para el nav */
-/*
-ul {    
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #E54E79; 
-
-}
-
-li {
-	float: right;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 16px;
-	text-decoration: none;
-}
-
-li a:hover {
-	background-color: #E56385;
-}
-
