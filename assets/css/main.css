@@ -118,7 +118,7 @@ nav ul li a:hover {
 	font-size: 15px;
 	font-weight: 400;
 	color:  #EAEAEA; /*intento color texto gris*/
-	width: 400px;
+	width: 300px;
 	padding: 11px 0;
 	margin: 8px 0;
 	display: inline-block;
@@ -148,11 +148,97 @@ nav ul li a:hover {
 	margin-left: 43px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4)
 }
-.container p { /*falta arreglar estilo*/
-	font-size: 15px;
-	color: #75726c;
-	line-height: 35px;
+#alredy{
+	width: 350px;
+	height: 60px;
+	margin-top: 10px;
+}
+#alredy p { /*falta arreglar estilo*/
+	font-size: 12px;
+	color: #75726C;
+	margin-top: 25px;
+	
+	position: relative;
+	float: left;
+	text-align: left;
+}
+/*seccion juego*/
+.play-background{
+	background-color: #00B2A9;
+	width: 100%;
+	height: 550px;
+
+	position: relative;
+	float: left;
+	margin-top: -10px;
+}
+.encabezado{
+	display: block;
+	background-color: #EDE9E2;
+	width: 100%;
+	height: 100px;
+	margin-top: 82px;
+	margin-left: 0px;
+	margin-right:  -154px;
+
+	position: relative;
+	float: left;
+}
+.encabezado p{
+	font-size: 45px;
+	font-weight: bold;
+	color: #75726C;
+	text-align: center;
+	margin-top: 25px;
+}
+.container-juego{
+	background-color: #EDE9E2;
+	width: 912px;
+	height: 257px;
+
+	position: relative;
+	float: left;
+	margin-top: 80px;
+	margin-left: 90px;
+}
+.containerx, .containery{
+	position: relative;
+	float: left;
+	margin-top: 80px;
+	margin-left: 90px;
+
+}
+.x, .y{
+	position: relative;
+	float: left;
+	padding-top: 10px;
+
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border: none;
+	border-bottom: 1.5px solid #75726c;
 	margin-left: 43px;
+	background-color: #EDE9E2;
+
+}
+.starboton{
+    font-size: 15px;
+    color: #EDE9E2;
+    background-color: #26A699;
+    width: 65%;
+    height: 44px;
+    margin-top: 34px;
+    border-radius: 15px;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 175px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    position: relative;
+    float: left;
+
 }
 /*
 #navbar{

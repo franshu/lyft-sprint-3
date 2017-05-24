@@ -5,6 +5,7 @@
 	<title>lyft-sprint-3</title>
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+	<link href=“https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css” rel=“stylesheet” integrity=“sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN” crossorigin=“anonymous”>
 </head>
 <body>
 	<!-- Header que contiene, nav con logo y una lista -->
@@ -32,24 +33,39 @@
 			<h4>sing up to drive lift</h4>
 			<input type="text" placeholder="Phone Number">
 			<buttonhref="#" class="pinkboton">BECOME A DRIVER ♥</button> 
-			<p>Already applied? Check the status of your application here.<br>Earn money for inviting friends to drive. Learn more</p>
+			<div id="alredy"><p>Already applied? Check the status of your application here.<br>Earn money for inviting friends to drive. Learn more</p>
+			</div>
 		</div>
 	</section>
 	<!-- Seccion Juego -->
 	<div class="play-background">
-		<div class="encabezado">PLAY WITH LYFT</div>
+		<div class="encabezado">
+			<p>PLAY WITH LYFT</p>
+		</div>
 		<div class="container-juego">
-			<input type="text" class="x" placeholder="X coordinate">
-			<input type="text" class="y" placeholder="Y coordinate">
-			<button  href="#" class="starboton">START</button>
+
+			<div class="containerx">
+				<label><i class="fa fa-car" aria-hidden="true"></i></label>
+				<input type="text" class="x" placeholder="X coordinate">
+			</div>
+			<div class="containery">
+				<label><i class="fa fa-car" aria-hidden="true"></i></label>
+				<input type="text" class="y" placeholder="Y coordinate">
+			</div>
+			<div class=botonverde>
+
+				<button  href="#" class="starboton">START</button>
+			</div>
 		</div>
 	</div>
-<!-- Footer -->
-	<footer class="piepag">
-		<p class="datos">FOJEDA<br>SCL2017</p>
-		<!-- incluir iconos font awesome -->
+	<!-- Footer -->
+	<div>
+		<footer class="piepag">
+			<p class="datos">FOJEDA<br>SCL2017</p>
+			<!-- incluir iconos font awesome social media -->
 
 		</footer>
+	</div>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
