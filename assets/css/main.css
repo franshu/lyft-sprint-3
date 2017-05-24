@@ -4,7 +4,7 @@ Colors:
 #E56385;
 #00B2A9;
 #75726C;
-#EDE9E2
+#EDE9E2;
 */
 *{
 	margin: 0;
@@ -16,6 +16,10 @@ header{
 	width: 100%;
 	background: #E54E79;
 	height: 70px;
+
+	position: fixed;
+	overflow: auto;
+	z-index: 1;
 }
 /*modificar el ancho del div*/
 .ancho{
@@ -28,6 +32,7 @@ header{
 	width: 30%;
 	height: 70px;
 	background: #E54E79;
+
 	float: left;
 	padding-top: 10px;
 	box-sizing: border-box; /* evita que se agrande el contenedor */
@@ -35,6 +40,7 @@ header{
 .logo{
 	width: 65px;
 	background: #E54E79;
+
 	float: left;
 	padding-top: 10px;
 	box-sizing: border-box; /* evita que se agrande el contenedor */
@@ -43,6 +49,7 @@ nav{
 	width: 70%;
 	height: 70px;
 	background: #E54E79;
+
 	float: left;
 	text-align: right;
 	padding-top: 24px;
@@ -50,8 +57,6 @@ nav{
 }
 nav ul li{
 	display: inline;
-
-
 }
 nav ul li a{
 	color: #FFF;
@@ -63,25 +68,95 @@ nav ul li a{
 	font-family: 'Raleway', sans-serif;
 	overflow: hidden;
 }
-/*a:link{
-	color: whithe
-}*/
 nav ul li a:hover {
 	background-color: #E56385;
 	text-align: center;
 }
-/**{
-	margin:0;
-	padding:0;
-	font-family: 'Raleway', sans-serif;
+/*seccion header*/
+.header{
+	display: inline-block;
 }
-body {
-	background-color: #FFF
+.background img{
+	width: 100%;
+	display: inline-block;
+	background-position: center; 
+}
+.container{
+	width: 398px;
+	height: 355px;
+	background-color: #EDE9E2;
+
+	position: relative;
+	float: right;
+	margin-top: -424px;
+
+}
+.container h2{
+	color: #00B2A9;
+	text-transform: uppercase;
+	font-size: 27px;
+	font-weight: bold;
+
+	position: relative;
+	float: left;
+	margin-top: 66px;
+	margin-left: 43px;
+}
+.container h4{
+	color: #75726C;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 400;
+
+	position: relative;
+	float: left;
+	margin-top: 27px;
+	margin-left: 43px;
 }
 
+.container input {
+	font-size: 15px;
+	font-weight: 400;
+	color:  #EAEAEA; /*intento color texto gris*/
+	width: 400px;
+	padding: 11px 0;
+	margin: 8px 0;
+	display: inline-block;
+	background: #EDE9E2;
+
+	box-sizing: border-box;
+	margin-top: 20px;
+	border: none;
+	border-bottom: 1.5px solid #75726c;
+	margin-left: 43px;
+}
+
+.pinkboton{
+	font-size: 15px;
+	font-weight: 400;
+	width: 400px;
+	color: #EDE9E2;
+	background-color: #E56385;
+	width: 50%;
+	height: 26px;
+	margin-top: 5px;
+	border-radius: 15px;
+	padding: 12px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 43px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4)
+}
+.container p { /*falta arreglar estilo*/
+	font-size: 15px;
+	color: #75726c;
+	line-height: 35px;
+	margin-left: 43px;
+}
 /*
 #navbar{
 	display: inline-block;
 	overflow: auto;
 	width: 100%;
-}
+	}*/
