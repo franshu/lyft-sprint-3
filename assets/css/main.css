@@ -202,12 +202,19 @@ nav ul li a:hover {
 	margin-left: 90px;
 }
 .containerx, .containery{
-	position: relative;
-	float: left;
-	margin-top: 80px;
-	margin-left: 90px;
+	    position: relative;
+    float: left;
+    margin-top: 72px;
+    margin-left: 170px;
 
 }
+/* (no me resulta correr el icono)
+.containerx i{ 
+	position: relative;
+	display: inline-block;
+	margin-top: 80px;
+	margin-left: 90px;
+}*/
 .x, .y{
 	position: relative;
 	float: left;
